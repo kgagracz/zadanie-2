@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    color: black;
+    width: 500px;
+    height: 250px;
+    margin: 100px;
+}
+table, td, tr {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    background-color: white;
+}
+
+.blue  {
+    background-color: rgb(125, 104, 219);
+}

@@ -1,0 +1,72 @@
+body {
+    color: white;
+}
+
+div:not(.none) {
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
+    margin: 10px;
+    padding: 5px;
+}
+
+img {
+    object-fit: contain;
+    margin: 10px;
+}
+
+.light-gray {
+    background-color: gray;
+}
+
+.dark-gray {
+    background-color: rgb(68, 68, 68);
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    height: 300px;
+    width: 10%;
+}
+
+a {
+    width: 100%;
+    margin: 10px;
+    color: white;
+}
+
+.articles {
+    float: right;
+    width: 85%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 10vh;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+.none {
+    background-color: gray;
+}
